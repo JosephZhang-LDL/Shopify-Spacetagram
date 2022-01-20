@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+$blue-dark: #0a0d0f;
+$gray-bg: #f9f9fa;
+
+.background {
+  background-color: $blue-dark;
+  min-height: 100vh;
+}
+
+.main-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.navbar {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.intro {
+  font-size: 20px;
+  color: #CBD2D9;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.logo {
+  font-family: Source Sans Pro;
+  font-size: 90px;
+  font-weight: 300;
+
+  color: whitesmoke;
+
+  margin-top: -30px;
+}
+
+.wrap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  font-size: 20px;
+  color: #CBD2D9;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+// Cards
+.flex-box {
+  display: flex;
+}
+
+.like-picture {
+  color: #d2202f;
+  &:hover {
+    cursor: pointer;
+    color: #df5f6a;
+    transition: .3s ease;
+  }
+}
+
+.unlike-picture {
+  color: #52606D;
+  &:hover {
+    cursor: pointer;
+    color: #d2202f;
+    transition: .3s ease;
+  }
+}
+
+//Loading
+.loading-section {
+  text-align: center;
+}
